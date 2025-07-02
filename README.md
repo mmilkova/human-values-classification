@@ -1,7 +1,7 @@
 # Human Values Classification in Russian Social Media
 
 This repository contains Python scripts and models accompanying the study:
-**"Learning Human Values from Noisy Russian Social Media Text Data: A Multi-Stage Classification Framework"**.
+**"Detecting Basic Values in A Noisy Russian Social Media Text Data: A Multi-Stage Classification Framework"**.
 
 We analyze how human values are expressed in public VKontakte (VK) posts, drawing on Schwartz’s theory of basic human values. Our pipeline includes filtering, GPT-based annotation, and supervised multi-label classification using transformer models.
 
