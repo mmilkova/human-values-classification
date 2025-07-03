@@ -70,4 +70,4 @@ Code is released under the MIT license. Use of models and data is permitted for 
 
 If you use this code or data, please cite:
 
-> BLINDED  (2025). Learning Human Values from Noisy Russian Social Media Text Data: A Multi-Stage Classification Framework*. Journal of Computational Social Science (under review).
+> BLINDED  (2025). Detecting Basic Values in A Noisy Russian Social Media Text Data: A Multi-Stage Classification Framework. Journal of Computational Social Science (under review).
