@@ -31,7 +31,7 @@ We analyze how human values are expressed in public VKontakte (VK) posts, drawin
   3_Processing_byValues               # Base analysis of predicted data 
 
 
-data/                             # Rubert-tiny2-fine-tuned embeddings, examples of annotations and predicted scores (no raw texts)
+data/                             # Rubert-tiny2-fine-tuned embeddings, examples of annotations and fragment of predicted scores (no raw texts)
 models/                           # Trained classification models
 dictionaries/                     # Custom pattern dictionaries (for spam filtering and political classification)
 
