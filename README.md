@@ -43,8 +43,7 @@ Two pretrained artifacts are available via Zenodo:
 
 - **Rubert-tiny2 fine-tuned embeddings** used for binary classification (value-expression detection)
 - **XLM-RoBERTa-large model** fine-tuned for multilabel classification of human values
-
-🔗 [https://doi.org/10.5281/zenodo.15801230](https://doi.org/10.5281/zenodo.15801230)
+[https://doi.org/10.5281/zenodo.15801230](https://doi.org/10.5281/zenodo.15801230)
 ---
 
 ## Getting Started
