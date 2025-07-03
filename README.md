@@ -31,12 +31,20 @@ We analyze how human values are expressed in public VKontakte (VK) posts, drawin
   3_Processing_byValues               # Base analysis of predicted data 
 
 
-data/                             # Rubert-tiny2-fine-tuned embeddings, examples of annotations and fragment of predicted scores (no raw texts)
-models/                           # Trained classification models
+data/                             # Examples of annotations, fragment of predicted scores, **(Rubert-tiny2-fine-tuned embeddings hosted on Zenodo)** (no raw texts)
+models/                           # Trained classification models (**full xlm-roberta-large model hosted on Zenodo**)
 dictionaries/                     # Custom pattern dictionaries (for spam filtering and political classification)
 
 ```
 
+## Pretrained Models and Embeddings (Zenodo)
+
+Two pretrained artifacts are available via Zenodo:
+
+- **Rubert-tiny2 fine-tuned embeddings** used for binary classification (value-expression detection)
+- **XLM-RoBERTa-large model** fine-tuned for multilabel classification of human values
+
+🔗 [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
 ---
 
 ## Getting Started
