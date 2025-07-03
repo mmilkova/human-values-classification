@@ -54,7 +54,9 @@ To reproduce the classification pipeline:
 1. Run crawling and preprocessing (see 1\_Crawling\_and\_Preprocessing/)
 2. Filter posts using value- and political classifiers
 3. Annotate posts with GPT or use `gpt-api-prompt/`
-4. Fine-tune or use provided models in `models/`
+4. Download the pretrained multilabel classification model (XLM-RoBERTa-large) from Zenodo 
+   and place it in the `models/` folder.  
+   [Download here](https://doi.org/10.5281/zenodo.15801230)
 
 ---
 
