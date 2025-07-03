@@ -72,7 +72,7 @@ Researchers may request access to full data under a data usage agreement. Contac
 
 ## License and Ethical Use
 
-Code is released under the MIT license. Use of models and data is permitted for **non-commercial academic research only**. Governmental and commercial use is prohibited. See `ETICAL_USE.md` for more.
+Code is released under the MIT license. Use of models and data is permitted for **non-commercial academic research only**. Governmental and commercial use is prohibited. See `ETHICAL_USE.md` for more.
 
 ---
 
