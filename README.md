@@ -34,7 +34,7 @@ We analyze how human values are expressed in public VKontakte (VK) posts, drawin
 
 
 data/                             # Examples of annotations, fragment of predicted scores, **(Rubert-tiny2-fine-tuned embeddings hosted on Zenodo)** (no raw texts)
-models/                           # Trained classification models (**full xlm-roberta-large model hosted on Zenodo**)
+models/                           # Trained classification models,  xlm-roberta-large_thresholds (**full xlm-roberta-large model hosted on Zenodo**)
 dictionaries/                     # Custom pattern dictionaries (for spam filtering and political classification)
 
 ```
