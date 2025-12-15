@@ -30,7 +30,8 @@ We analyze how human values are expressed in public VKontakte (VK) posts, drawin
 4_Multilabel_Classification/
   1_FineTuning-BERT-model             # Fine-tuning xlm-roberta-large model for multi-label classification
   2_MakePredictionsWithNewData        # Inference on unlabeled posts
-  3_Processing_byValues               # Base analysis of predicted data 
+  3_Processing_byValues               # Base analysis of predicted data
+  MultidimensionalScaling             # R script for MultidimensionalScaling
 
 
 data/                             # Examples of annotations, fragment of predicted scores, **(Rubert-tiny2-fine-tuned embeddings hosted on Zenodo)** (no raw texts)
