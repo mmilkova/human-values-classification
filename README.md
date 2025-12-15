@@ -23,7 +23,8 @@ We analyze how human values are expressed in public VKontakte (VK) posts, drawin
 3_Annotation_GPT_and_Experts
   0_gpt-api-prompt_binary_annotation     # prompt to use gpt-3.5-turbo to annotate whether posts express any value 
   1_gpt-api-prompt                       # prompt to use gpt-4 to annotate data on ten values
-  2_experts_vs_chatgpt                   # accuracy and agreement analysis of gpt and human annotations
+  2_experts_vs_chatgpt                   # First stage (value-specific). Agreement and consistency analysis of gpt and expert annotations
+  3_gpt-model-vs-experts-multi-label     # Second stage (multi-label). Agreement and consistency analysis of gpt, model and expert annotations
 
 
 4_Multilabel_Classification/
