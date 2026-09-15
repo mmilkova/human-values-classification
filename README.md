@@ -24,7 +24,7 @@ This repository contains Python scripts and models accompanying the study:
 
 
 4_Multilabel_Classification/
-  1_FineTuning-BERT-model             # Fine-tuning xlm-roberta-large model for multi-label classification
+  FineTuning_RoBERTa               # Fine-tuning xlm-roberta-large model for multi-label classification
   2_MakePredictionsWithNewData        # Inference on unlabeled posts
   3_Processing_byValues               # Base analysis of predicted data
   MultidimensionalScaling             # R script for MultidimensionalScaling
