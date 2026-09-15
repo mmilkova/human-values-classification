@@ -1,6 +1,6 @@
 # Human Values Classification in Russian Social Media
 
-This repository contains Python scripts and models accompanying the study:
+This repository contains the main code and analysis components used in the study
 **"Structure of Basic Human Values in Russian Social Media"**.
 
 ---
