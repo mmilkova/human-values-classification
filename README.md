@@ -30,8 +30,7 @@ This repository contains Python scripts and models accompanying the study:
   Corpus-level-analysis               # Corpus-level analysis: Aggregate value-expression profile, structure of value co-expression
 
 
-data/                             # Examples of annotations, fragment of predicted scores, **(Rubert-tiny2-fine-tuned embeddings hosted on Zenodo)** (no raw texts)
-models/                           # Trained classification models (**xlm-roberta-large model hosted on Zenodo**)
+models/                           # some classification models (**xlm-roberta-large model hosted on Zenodo**)
 dictionaries/                     # Custom pattern dictionaries (for spam filtering and political classification)
 
 ```
