@@ -24,9 +24,8 @@ This repository contains Python scripts and models accompanying the study:
 
 
 4_Multilabel_Classification/
-  FineTuning_RoBERTa               # Fine-tuning xlm-roberta-large model for multi-label classification
-  2_MakePredictionsWithNewData        # Inference on unlabeled posts
-  3_Processing_byValues               # Base analysis of predicted data
+  FineTuning_XLM-RoBERTa               # Fine-tuning xlm-roberta-large model for multi-label classification
+  XLM_RoBERTa_evaluation           # PR-AUC, Spearman correlations, Cumulative distribution
   MultidimensionalScaling             # R script for MultidimensionalScaling
   Corpus-level-analysis               # Corpus-level analysis: Aggregate value-expression profile, structure of value co-expression
 
