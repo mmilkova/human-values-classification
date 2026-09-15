@@ -20,7 +20,7 @@ This repository contains the main code and analysis components used in the study
 
 3_Annotation_GPT_and_Experts
   0_gpt-api-prompt_binary_annotation     # prompt to use gpt-3.5-turbo to annotate whether posts express any value 
-  MultilabelAnnotation                    # Different prompt configurations for multilabel annotation (gpt-4, gpt-5, gemini-2.5-pro)
+  MultilabelAnnotation                    # Different prompt configurations for multilabel annotation (gpt-4, gpt-5.2, gemini-2.5-pro)
 
 
 4_Multilabel_Classification/
