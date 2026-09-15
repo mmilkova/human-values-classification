@@ -11,7 +11,7 @@ This repository contains Python scripts and models accompanying the study:
 1_Crawling_and_Preprocessing/
   1_VK_Crawling                # Crawling text posts from random users via VK API 
   2_Preprocessing              # General preprocessing, 
-  3_Spam_Filtering             # Spam and non-peronal content filtering
+  3_Spam_Filtering             # Spam and non-personal content filtering
 
 2_Binary_Classification/
   1_FineTuning_RuBert_tiny           # Fine-tuning Rubert-tiny2 model + train SVM to classify if the posts is value-expressive
@@ -20,7 +20,7 @@ This repository contains Python scripts and models accompanying the study:
 
 3_Annotation_GPT_and_Experts
   0_gpt-api-prompt_binary_annotation     # prompt to use gpt-3.5-turbo to annotate whether posts express any value 
-  MultilabelAnnotation                    # Different prompt configurarions for multilabel annotation (gpt-4, gpt-5, gemini-2.5-pro)
+  MultilabelAnnotation                    # Different prompt configurations for multilabel annotation (gpt-4, gpt-5, gemini-2.5-pro)
 
 
 4_Multilabel_Classification/
