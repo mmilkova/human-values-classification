@@ -10,12 +10,3 @@ Although the collected content was publicly available at the time of access, we 
 - All user and post identifiers were stored in **hashed form**, without any direct links to user profiles.
 - Posts were collected together with publicly available user metadata (e.g., age, gender, region), which were used in aggregate analyses only. 
 
-## Access to Full Text Data
-
-The full dataset of post texts is **not publicly available** due to ethical constraints. However, we are committed to supporting the research community. Academic researchers may request access for non-commercial use under a data usage agreement.
-
-To request access, please contact the corresponding author with:
-
-- Institutional affiliation;
-- Brief research purpose;
-- Agreement to non-redistribution.
