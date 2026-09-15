@@ -48,7 +48,7 @@ Two pretrained artifacts are available via Zenodo:
 ## Data Availability
 
 * We **do not** publish raw VK post texts due to ethical constraints.
-* See `README_data.md` for more.
+
 
 ---
 
