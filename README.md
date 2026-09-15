@@ -1,9 +1,7 @@
 # Human Values Classification in Russian Social Media
 
 This repository contains Python scripts and models accompanying the study:
-**"Detecting Basic Values in A Noisy Russian Social Media Text Data: A Multi-Stage Classification Framework"**.
-
-We analyze how human values are expressed in public VKontakte (VK) posts, drawing on Schwartz’s theory of basic human values. Our pipeline includes filtering, GPT-based annotation, and supervised multi-label classification using transformer models.
+**"Structure of Basic Human Values in Russian Social Media"**.
 
 ---
 
@@ -30,50 +28,33 @@ We analyze how human values are expressed in public VKontakte (VK) posts, drawin
   2_MakePredictionsWithNewData        # Inference on unlabeled posts
   3_Processing_byValues               # Base analysis of predicted data
   MultidimensionalScaling             # R script for MultidimensionalScaling
+  Corpus-level-analysis               # Corpus-level analysis: Aggregate value-expression profile, structure of value co-expression
 
 
 data/                             # Examples of annotations, fragment of predicted scores, **(Rubert-tiny2-fine-tuned embeddings hosted on Zenodo)** (no raw texts)
-models/                           # Trained classification models,  xlm-roberta-large_thresholds (**full xlm-roberta-large model hosted on Zenodo**)
+models/                           # Trained classification models (**xlm-roberta-large model hosted on Zenodo**)
 dictionaries/                     # Custom pattern dictionaries (for spam filtering and political classification)
 
 ```
 
-## Pretrained Models and Embeddings (Zenodo)
+## Pretrained Models and Embeddings (Zenodo)  # Repository BLINDED for double-blind review
 
 Two pretrained artifacts are available via Zenodo:
 
 - **Rubert-tiny2 fine-tuned embeddings** used for binary classification (value-expression detection)
 - **XLM-RoBERTa-large model** fine-tuned for multilabel classification of human values
-  
-[https://doi.org/10.5281/zenodo.15801230](https://doi.org/10.5281/zenodo.15801230)
----
-
-## Getting Started
-
-To reproduce the classification pipeline:
-
-1. Run crawling and preprocessing (see 1\_Crawling\_and\_Preprocessing/)
-2. Filter posts using value- and political classifiers
-3. Annotate posts with GPT or use `gpt-api-prompt/`
-4. Download the pretrained multilabel classification model (XLM-RoBERTa-large) from Zenodo 
-   and place it in the `models/` folder.  
-   [Download here](https://doi.org/10.5281/zenodo.15801230)
-
 ---
 
 ## Data Availability
 
 * We **do not** publish raw VK post texts due to ethical constraints.
-* Hashed IDs, annotations, and aggregated soft labels are provided.
 * See `README_data.md` for more.
-
-Researchers may request access to full data under a data usage agreement. Contact the corresponding author with institutional affiliation and research purpose.
 
 ---
 
 ## License and Ethical Use
 
-Code is released under the MIT license. Use of models and data is permitted for **non-commercial academic research only**. Governmental and commercial use is prohibited. See `ETHICAL_USE.md` for more.
+Code is released under the MIT license. Use of models is permitted for **non-commercial academic research only**. Governmental and commercial use is prohibited. See `ETHICAL_USE.md` for more.
 
 ---
 
