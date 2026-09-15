@@ -52,7 +52,8 @@ Two pretrained artifacts are available via Zenodo:
 
 ## License and Ethical Use
 
-Code is released under the MIT license. Use of models is permitted for **non-commercial academic research only**. Governmental and commercial use is prohibited. See `ETHICAL_USE.md` for more.
+The code is distributed under the MIT License. Because the models concern inferences about human value expression, we strongly discourage their use for individual profiling, surveillance, social scoring, censorship, or
+discriminatory decision making.. See `ETHICAL_USE.md` for more.
 
 ---
 
